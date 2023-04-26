@@ -41,6 +41,6 @@ ggplot(mpg, aes(manufacturer)) + geom_bar(fill = "red")
 
 ```{r}
 # YOUR CODE GOES HERE  (Please delete)
-ggplot(mpg, aes(manufacturer)) + geom_bar(fill = "green")
+ggplot(mpg, aes(manufacturer)) + geom_bar(fill = "green", color = "purple", linewidth = 2)
 ```
 
