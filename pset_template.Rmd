@@ -33,7 +33,7 @@ Late coins used this pset: 0. Late coins left: 4. <!--You may use one for a give
 
 ```{r}
 # YOUR CODE GOES HERE  (Please delete)
-ggplot(mpg, aes(manufacturer)) + geom_bar(fill = "red")
+ggplot(mpg, aes(manufacturer)) + geom_bar(fill = "red", color = "yellow", linewidth = 2)
 ```
 
 
